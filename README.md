@@ -75,12 +75,15 @@ how_to_blog/
 - python-dotenv: Environment variable management
 - smtplib: Email functionality
 
-## API Integration
+## API Integration - DEPRECATED
 
 The blog posts are fetched from an external API endpoint. The application uses the following endpoint:
 ```
 https://api.npoint.io/405401fd224c5d58a066
 ```
+
+## Database Integration
+A simple local SQL DB (SQLite) is created to store all posts
 
 ## License
 
