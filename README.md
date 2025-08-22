@@ -5,7 +5,8 @@ Disclaimer. The project is intended as a learning curve of web development with 
 ## Features
 
 - Responsive design for all devices ([Bootstrap](https://getbootstrap.com/))
-- Dynamic blog posts loaded from an external API ([Npoint](https://www.npoint.io/))
+- Dynamic blog posts loaded from an external API ([Npoint](https://www.npoint.io/)) - DEPRECATED
+- Content is stored and fetched from the local database
 - Individual post pages with detailed content
 - About page with author information
 - Contact form with email notification functionality
