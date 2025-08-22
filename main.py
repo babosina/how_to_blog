@@ -58,8 +58,7 @@ def index():
 
 @app.route("/about")
 def about():
-    return render_template("about.html",
-                           current_year=current_year)
+    return render_template("about.html")
 
 
 @app.route("/contact", methods=["GET", "POST"])
@@ -75,8 +74,7 @@ Message from {request.form.get('email')}: {request.form.get('message')}
 """)
         return render_template("contact.html", msg_sent=True)
     else:
-        return render_template("contact.html", current_year=current_year,
-                               msg_sent=False)
+        return render_template("contact.html", msg_sent=False)
 
 
 @app.route("/post/<int:post_id>")
